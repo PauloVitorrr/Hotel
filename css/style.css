@@ -12,26 +12,22 @@ body {
   width: 100vw;
   height: 100vh;
 
-  background: lightblue;
   background-image: url(../assets/img/header-image-home.jpeg);
   background-position: center;
-  background-repeat: no-repeat;
+  background-size: 100%;
   
-}
-
-.container {
-  margin: 0 10% 0 10%;
 }
 
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 
 .retangle {
-  display: grid;
+  display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
 
@@ -47,7 +43,7 @@ header {
   display: flex;
   justify-content: space-between;
 
-  width: 60%;
+  width: 34%; 
 
   font-family: "Montserrat";
 }
