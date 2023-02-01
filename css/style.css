@@ -14,7 +14,9 @@ body {
 
   background-image: url(../assets/img/header-image-home.jpeg);
   background-position: center;
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   
 }
 
@@ -42,8 +44,9 @@ header {
 .link-pages {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
-  width: 34%; 
+  width: 35%; 
 
   font-family: "Montserrat";
 }
